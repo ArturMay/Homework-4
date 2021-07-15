@@ -1,0 +1,32 @@
+@import 'variables';
+
+header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav {
+    ul {
+        display: flex;
+    }
+
+    a {
+        padding: 10px 0 10px 30px;
+        color: $text-primary-color;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            color: $hover-link-color;
+        }
+    }
+}
