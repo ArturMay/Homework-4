@@ -1,8 +1,10 @@
-@import 'header';
+@import 'variables';
+@import 'mixin';
+@import 'selector';
+@import 'button';
 @import 'container';
 @import 'global';
-@import 'button';
-@import 'variables';
+@import 'header';
 
 h1 {
     font-size: 54px;
