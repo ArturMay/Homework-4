@@ -1,0 +1,34 @@
+.article-section-holder {
+    background-color: $secondary-background-color;
+    padding-top: 200px;
+}
+
+.article-content-holder {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.reverse-direction {
+    flex-direction: row-reverse;
+}
+
+.article-image {
+    width: 950px;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-text {
+    width: calc(100% - 950px);
+    text-align: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.article-image-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: $text-primary-color;
+}

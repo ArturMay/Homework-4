@@ -1,0 +1,20 @@
+.lorem-section {
+    display: flex;
+    align-items: center;
+    background-color: $primary-background-color;
+    min-height: 430px;
+}
+
+.lorem-left-container, 
+.lorem-right-container {
+    width: 50%;
+}
+
+.lorem-left {
+    font-size: 28px;
+    padding-right: 170px;
+}
+
+.lorem-rigth {
+    font-size: 16px;
+}
