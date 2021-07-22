@@ -17,10 +17,11 @@
     input[type="text"] {
         background-color: $secondary-background-color;
         min-width: 800px;
-        padding: 25px;
+        padding: 25px 0 25px 25px;
         font-size: 16px;
         color: $text-secondary-color;
         border: 1px #333 solid;
+        // margin-right: -25px;
     }
     
     input[type="submit"] {
@@ -29,15 +30,43 @@
         padding: 25px;
         font-size: 16px;
         color: $text-primary-color;
-        border: 2px #333 solid;
+        border: 1px #333 solid;
         cursor: pointer;
     
         &:hover {
-            color: red;
-            background-color: green;
+            color: rgb(39, 26, 26);
+            background-color: rgba(172, 162, 196, 0.856);
             transition: all 0.3s ease-in-out;
         }
     }
 }
 
-
+.footer-input {
+    display: flex;
+    
+    input[type="text-secondary"] {
+        background-color: $secondary-background-color;
+        padding: 10px 0 10px 10px;
+        font-size: 16px;
+        color: $text-secondary-color;
+        border: 1px #333 solid;
+        width: 230px;
+        margin-right: -10px;
+    }
+    
+    input[type="submit-secondary"] {
+        background-color: #333;
+        padding: 10px;
+        font-size: 16px;
+        color: $text-primary-color;
+        border: 1px #333 solid;
+        cursor: pointer;
+        width: 100px;
+    
+        &:hover {
+            color: rgb(39, 26, 26);
+            background-color: rgba(172, 162, 196, 0.856);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}

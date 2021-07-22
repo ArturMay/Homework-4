@@ -31,3 +31,15 @@ img {
 	  display: inline-block;
 	  height: auto;
 }
+
+.telephone, .email, .web-adress {
+    color: #d2c9bc;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+
+    &:hover {
+        color: rgb(16, 155, 51);
+    }
+}
