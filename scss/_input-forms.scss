@@ -1,0 +1,43 @@
+.subscribe-section-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-background-color;
+    padding: 60px 30px;
+    margin-bottom: 40px;
+}
+
+.subscribe-section-heading {
+    font-size: 30px;
+}
+
+.subscribe-section-input {
+    display: flex;
+
+    input[type="text"] {
+        background-color: $secondary-background-color;
+        min-width: 800px;
+        padding: 25px;
+        font-size: 16px;
+        color: $text-secondary-color;
+        border: 1px #333 solid;
+    }
+    
+    input[type="submit"] {
+        background-color: #333;
+        min-width: 100px;
+        padding: 25px;
+        font-size: 16px;
+        color: $text-primary-color;
+        border: 2px #333 solid;
+        cursor: pointer;
+    
+        &:hover {
+            color: red;
+            background-color: green;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+

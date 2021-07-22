@@ -195,6 +195,7 @@ h1 {
 .article-section-holder {
   background-color: #f3f3f3;
   padding-top: 200px;
+  margin-bottom: 40px;
 }
 
 .article-content-holder {
@@ -232,4 +233,52 @@ h1 {
   bottom: 30px;
   left: 30px;
   color: #fff;
+}
+
+.subscribe-section-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  padding: 60px 30px;
+  margin-bottom: 40px;
+}
+
+.subscribe-section-heading {
+  font-size: 30px;
+}
+
+.subscribe-section-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.subscribe-section-input input[type=text] {
+  background-color: #f3f3f3;
+  min-width: 800px;
+  padding: 25px;
+  font-size: 16px;
+  color: #333;
+  border: 1px #333 solid;
+}
+.subscribe-section-input input[type=submit] {
+  background-color: #333;
+  min-width: 100px;
+  padding: 25px;
+  font-size: 16px;
+  color: #fff;
+  border: 2px #333 solid;
+  cursor: pointer;
+}
+.subscribe-section-input input[type=submit]:hover {
+  color: red;
+  background-color: green;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
