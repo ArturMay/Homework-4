@@ -1,0 +1,118 @@
+.hero-button {
+  background-color: #343638;
+  color: #fff;
+  border-color: #fff;
+}
+
+.container {
+  max-width: 1515px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid #459750;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+  height: auto;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav a {
+  padding: 10px 0 10px 30px;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.nav a:hover {
+  color: red;
+}
+
+h1 {
+  font-size: 54px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.enlarger {
+  font-size: 90px;
+  padding: 0 20px;
+}
+
+.hero-section {
+  background-color: #e3d5b8;
+  background-image: url("../img/apples.jpg");
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-content-holder {
+  width: 100%;
+  text-align: center;
+}
+
+.company-slogan {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 150px;
+}

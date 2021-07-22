@@ -1,0 +1,5 @@
+@mixin hero-button-theme {
+    background-color: $button-bg-color;
+    color: $text-primary-color;
+    border-color: $button-border-color;
+}

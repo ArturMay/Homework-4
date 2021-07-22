@@ -1,0 +1,4 @@
+.hero-button {
+    @include hero-button-theme;
+    @extend %button;
+}
