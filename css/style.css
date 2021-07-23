@@ -234,13 +234,13 @@ h4 {
 }
 
 .article-image {
-  width: 950px;
+  width: 70%;
   overflow: hidden;
   position: relative;
 }
 
 .article-text {
-  width: calc(100% - 950px);
+  width: 30%;
   text-align: center;
   padding-left: 20px;
   font-size: 20px;
@@ -269,17 +269,19 @@ h4 {
 }
 
 .subscribe-section-heading {
-  font-size: 30px;
+  width: 35%;
+  font-size: 26px;
 }
 
 .subscribe-section-input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 65%;
 }
 .subscribe-section-input input[type=text] {
   background-color: #f3f3f3;
-  min-width: 800px;
+  width: 80%;
   padding: 25px 0 25px 25px;
   font-size: 16px;
   color: #333;
@@ -287,8 +289,8 @@ h4 {
 }
 .subscribe-section-input input[type=submit] {
   background-color: #333;
-  min-width: 100px;
-  padding: 25px;
+  width: 20%;
+  padding: 15px;
   font-size: 16px;
   color: #fff;
   border: 1px #333 solid;
@@ -309,20 +311,20 @@ h4 {
 .footer-input input[type=text-secondary] {
   background-color: #f3f3f3;
   padding: 10px 0 10px 10px;
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
   border: 1px #333 solid;
-  width: 230px;
+  width: 70%;
   margin-right: -10px;
 }
 .footer-input input[type=submit-secondary] {
   background-color: #333;
   padding: 10px;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   border: 1px #333 solid;
   cursor: pointer;
-  width: 100px;
+  width: 30%;
 }
 .footer-input input[type=submit-secondary]:hover {
   color: #271a1a;
@@ -350,9 +352,6 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   min-height: 440px;
 }
 
@@ -362,6 +361,7 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 150px;
 }
 
 .adress {

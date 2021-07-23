@@ -15,13 +15,14 @@
 }
 
 .article-image {
-    width: 950px;
+    width: 70%;
     overflow: hidden;
     position: relative;
+    // flex: 0 0 770px;
 }
 
 .article-text {
-    width: calc(100% - 950px);
+    width: 30%;
     text-align: center;
     padding-left: 20px;
     font-size: 20px;

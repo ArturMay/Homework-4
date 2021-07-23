@@ -8,15 +8,17 @@
 }
 
 .subscribe-section-heading {
-    font-size: 30px;
+    width: 35%;
+    font-size: 26px;
 }
 
 .subscribe-section-input {
     display: flex;
+    width: 65%;
 
     input[type="text"] {
         background-color: $secondary-background-color;
-        min-width: 800px;
+        width: 80%;
         padding: 25px 0 25px 25px;
         font-size: 16px;
         color: $text-secondary-color;
@@ -26,8 +28,8 @@
     
     input[type="submit"] {
         background-color: #333;
-        min-width: 100px;
-        padding: 25px;
+        width: 20%;
+        padding: 15px;
         font-size: 16px;
         color: $text-primary-color;
         border: 1px #333 solid;
@@ -47,21 +49,21 @@
     input[type="text-secondary"] {
         background-color: $secondary-background-color;
         padding: 10px 0 10px 10px;
-        font-size: 16px;
+        font-size: 14px;
         color: $text-secondary-color;
         border: 1px #333 solid;
-        width: 230px;
+        width: 70%;
         margin-right: -10px;
     }
     
     input[type="submit-secondary"] {
         background-color: #333;
         padding: 10px;
-        font-size: 16px;
+        font-size: 14px;
         color: $text-primary-color;
         border: 1px #333 solid;
         cursor: pointer;
-        width: 100px;
+        width: 30%;
     
         &:hover {
             color: rgb(39, 26, 26);
