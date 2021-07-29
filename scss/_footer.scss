@@ -1,6 +1,5 @@
 .footer {
     background-color: $primary-background-color;
-    // min-height: 500px;
     font-size: 16px;
     color:#d2c9bc;
     display: flex;
@@ -13,13 +12,12 @@
 
 .footer-secondary-content {
     display: flex;
-    min-height: 440px;
 }
 
 .secondary-content-holder {
     width: 25%;
     flex-direction: column;
-    padding-top: 150px;
+    padding: 150px 0;
 }
 
 .adress {
