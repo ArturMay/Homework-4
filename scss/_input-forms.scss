@@ -1,0 +1,44 @@
+.subscribe-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-background-color;
+    padding: 60px 30px;
+}
+
+.subscribe-heading {
+    width: 35%;
+    font-size: 26px;
+}
+
+.subscribe-input {
+    display: flex;
+    width: 65%;
+
+    input[type="text"] {
+        background-color: $secondary-background-color;
+        width: 80%;
+        padding: 25px 0 25px 25px;
+        font-size: 16px;
+        color: $text-secondary-color;
+        border: 1px #333 solid;
+    }
+}
+
+.footer-input {
+    margin-top: 20px;
+    
+    input[type="text"] {
+        background-color: $secondary-background-color;
+        padding: 10px;
+        font-size: 14px;
+        color: $text-secondary-color;
+        border: 1px #333 solid;
+        width: 70%;
+    }
+}
+
+.footer-form {
+    display: flex;
+    width: 100%;
+}

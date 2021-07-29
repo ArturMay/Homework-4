@@ -2,8 +2,9 @@
     display: inline-block;
     opacity: 0.5;
     border-style: solid;
+    padding: $button-padding;
+    font-size: $button-font-size;
     
-
     &:hover {
         opacity: 1;
         transition: all 0.3s ease-in-out;

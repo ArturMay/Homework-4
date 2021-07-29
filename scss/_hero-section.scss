@@ -1,0 +1,21 @@
+.hero-section {
+    background-color: $primary-background-color;
+	background-image: url("../img/apples.jpg");
+    background-size: cover;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content-holder {
+    width: 100%;
+    text-align: center;
+}
+
+.company-slogan {
+    color: $text-primary-color;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
